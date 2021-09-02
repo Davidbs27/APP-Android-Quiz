@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="#F5CA4F"
+    tools:context=".QuizActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:padding="1dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="score"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imagenView"
+        android:layout_width="116dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/celta" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="¿Cómo se llama el estadio del Leganés?"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:padding="6dp"
+        android:layout_marginBottom="0dp"
+        />
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Butarque"
+        android:textStyle="bold"
+        android:background="#A0CFEB"
+        android:textColor="#0000ff"
+        android:padding="3dp"
+        android:layout_marginBottom="14dp"
+        />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coliseum"
+        android:textStyle="bold"
+        android:background="#A0CFEB"
+        android:textColor="#0000ff"
+        android:padding="3dp"
+        android:layout_marginBottom="14dp"
+        />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La Rosaleda"
+        android:textStyle="bold"
+        android:background="#A0CFEB"
+        android:textColor="#0000ff"
+        android:padding="3dp"
+        android:layout_marginBottom="14dp"
+        />
+
+    <Button
+        android:id="@+id/choice4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El Molinón"
+        android:textStyle="bold"
+        android:background="#A0CFEB"
+        android:textColor="#0000ff"
+        android:padding="3dp"
+        android:layout_marginBottom="14dp"
+        />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#F84825"
+        android:padding="3dp"
+        android:text="SALIR"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
+

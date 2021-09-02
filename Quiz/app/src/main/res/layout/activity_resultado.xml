@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resultados"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#ff3444"
+    tools:context=".ResultadoActivity"
+
+
+    >
+
+    <TextView
+        android:id="@+id/grade"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="#B824CF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIN DEL JUEGO"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grade"
+        android:text="Tu puntación 5 de 15"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:layout_margin="16dp"
+        android:fontFamily="casual"
+        android:id="@+id/outOf"
+
+        />
+
+    <Button
+        android:id="@+id/BotonSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/outOf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#291743"
+        android:fontFamily="casual"
+        android:padding="8dp"
+        android:text="Juego Nuevo"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:text="By David and Rubén Beltrán"
+        android:textColor="#A99A2E"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout>
